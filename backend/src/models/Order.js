@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const orderSchema = new mongoose.Schema({
   orderNumber: {
     type: String,
-    unique: true,
     required: false // Will be auto-generated in pre-save hook
   },
   customer: {

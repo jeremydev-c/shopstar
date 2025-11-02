@@ -21,7 +21,6 @@ const productSchema = new mongoose.Schema({
   },
   sku: {
     type: String,
-    unique: true,
     required: [true, 'SKU is required'],
     uppercase: true,
     trim: true
