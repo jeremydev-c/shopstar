@@ -44,7 +44,7 @@ ecommerce-platform/
 │   │   └── tests/          # Test files
 │   ├── server.js
 │   └── package.json
-└── frontend/               # Coming soon
+└── frontend/               # Next.js frontend application
 ```
 
 ## 🛠️ Tech Stack
@@ -57,7 +57,7 @@ ecommerce-platform/
 - JWT (Authentication)
 - Jest (Testing)
 
-**Frontend (Planned):**
+**Frontend:**
 - Next.js 16
 - TypeScript
 - Tailwind CSS
@@ -99,10 +99,34 @@ RESEND_API_KEY=re_your_key
 npm run dev
 ```
 
+### Frontend Setup
+
+1. **Navigate to frontend:**
+```bash
+cd frontend
+```
+
+2. **Install dependencies:**
+```bash
+npm install
+```
+
+3. **Create `.env.local` file:**
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_key
+```
+
+4. **Start development server:**
+```bash
+npm run dev
+```
+
 ## 🧪 Testing
 
 Run tests:
 ```bash
+cd backend
 npm test
 ```
 
@@ -194,17 +218,18 @@ Integrated with Stripe:
 2. Set environment variables
 3. Deploy!
 
+See `QUICK_DEPLOY.md` for detailed deployment instructions.
+
 ## 📝 Environment Variables
 
-See `env.example` for all required variables.
+See `env.example` files for all required variables.
 
-## 🎯 Next Steps
+## 🎯 Project Status
 
-- [ ] Frontend development (Next.js)
-- [ ] Admin dashboard UI
-- [ ] More test coverage
-- [ ] CI/CD pipeline
-- [ ] Performance optimization
+- ✅ Backend API complete
+- ✅ Frontend application complete
+- ✅ Testing implemented
+- ✅ Ready for deployment
 
 ## 📄 License
 
@@ -213,4 +238,3 @@ ISC
 ---
 
 Built with ❤️ for learning and portfolio
-
