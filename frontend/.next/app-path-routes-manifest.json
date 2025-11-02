@@ -1,0 +1,19 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/analytics/page": "/admin/analytics",
+  "/admin/orders/page": "/admin/orders",
+  "/admin/page": "/admin",
+  "/admin/products/page": "/admin/products",
+  "/admin/settings/page": "/admin/settings",
+  "/admin/users/page": "/admin/users",
+  "/cart/page": "/cart",
+  "/checkout/page": "/checkout",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/orders/[id]/page": "/orders/[id]",
+  "/orders/page": "/orders",
+  "/page": "/",
+  "/products/page": "/products",
+  "/register/page": "/register"
+}

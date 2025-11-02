@@ -1,0 +1,164 @@
+[00:00:02.701] Server  LOG      ✓ Ready in 1971ms
+[00:00:32.640] Server  LOG        Reload env: .env.local
+[00:00:39.273] Server  LOG        Reload env: .env.local
+[00:00:47.716] Server  LOG        Reload env: .env.local
+[00:01:15.784] Server  LOG        Reload env: .env.local
+[00:01:50.835] Server  LOG      ○ Compiling / ...
+[00:01:56.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:01.576] Server  LOG      ✓ Compiled in 156ms
+[00:03:15.015] Server  LOG      ✓ Compiled in 75ms
+[00:04:34.453] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:24.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:39.919] Server  LOG      ○ Compiling /_not-found/page ...
+[00:08:41.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:41.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:50.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:36.332] Server  LOG      ✓ Compiled in 230ms
+[00:10:55.346] Server  LOG      ✓ Compiled in 105ms
+[00:11:03.487] Server  LOG      ✓ Compiled in 104ms
+[00:11:21.468] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:21.489] Server  LOG      ✓ Compiled in 89ms
+[00:11:22.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:34.742] Server  LOG      ✓ Compiled in 545ms
+[00:11:34.751] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:35.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:44.492] Server  LOG      ✓ Compiled in 281ms
+[00:11:44.511] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:45.358] Server  ERROR    ⨯ ReferenceError: useRouter is not defined
+[00:11:45.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:45.863] Browser ERROR   uncaughtError: ReferenceError: useRouter is not defined
+[00:11:52.592] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:52.594] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:52.595] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:52.607] Server  LOG      ✓ Compiled in 113ms
+[00:11:53.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:01.135] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:12:01.941] Server  LOG      ✓ Compiled in 104ms
+[00:12:02.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:36.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:39.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:48.436] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:16.084] Server  LOG      ✓ Compiled in 692ms
+[01:09:35.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:44.509] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"c","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:10:44.778] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"ch","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:10:44.778] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"chi","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:10:45.034] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"chic","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:13:39.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:51.564] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"shoe","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:14:51.833] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"sho","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:14:51.833] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"sh","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:14:51.980] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"search":"s","status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:14:52.195] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:14:54.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:56.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:58.793] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzA2MjEsImV4cCI6MTc2MjYzNTQyMX0.oFRKv3NfLl65rwtxNYwg0CI1cPfDqgc1n_wVmUnkJ5Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[01:16:56.867] Server  LOG      ✓ Compiled in 326ms
+[01:16:56.883] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:16:58.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:23.473] Server  LOG      ○ Compiling /admin/products ...
+[01:18:35.380] Server  LOG      ✓ Compiled in 468ms
+[01:18:42.155] Server  LOG      ✓ Compiled in 182ms
+[01:18:48.584] Server  LOG      ✓ Compiled in 109ms
+[01:18:57.424] Server  LOG      ✓ Compiled in 105ms
+[01:19:05.585] Server  LOG      ✓ Compiled in 107ms
+[01:19:13.864] Server  LOG      ✓ Compiled in 263ms
+[01:19:23.040] Server  LOG      ✓ Compiled in 185ms
+[01:19:29.407] Server  LOG      ✓ Compiled in 102ms
+[01:19:35.799] Server  LOG      ✓ Compiled in 105ms
+[01:21:18.385] Server  LOG      ✓ Compiled in 134ms
+[12:37:20.433] Server  LOG      ✓ Compiled in 502ms
+[12:37:25.656] Server  LOG      ✓ Compiled in 147ms
+[12:37:30.584] Server  LOG      ✓ Compiled in 110ms
+[12:37:37.524] Server  LOG      ✓ Compiled in 207ms
+[12:37:45.990] Server  LOG      ✓ Compiled in 103ms
+[12:39:02.811] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:41:54.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:41:57.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:41:58.174] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:42:25.665] Browser ERROR   🚨 Network Error - Backend not reachable: {"baseURL":"http://localhost:5000/api","message":"Make sure the backend server is running on port 5000","url":"/products"}
+[12:42:25.666] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzEwMjYsImV4cCI6MTc2MjYzNTgyNn0.3C001xPkQbUzZa4vSmXId_jMhTL-2n_kjC67ncOKxOc","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[12:42:25.666] Browser ERROR   💡 Tip: Make sure your backend server is running on http://localhost:5000
+[12:42:25.666] Browser ERROR   🚨 Network Error - Backend not reachable: {"baseURL":"http://localhost:5000/api","message":"Make sure the backend server is running on port 5000","url":"/products"}
+[12:42:25.666] Browser ERROR   Error fetching products: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OTA2NjU3MzQ2ZjIzMjlmYTkxYjdlZDYiLCJpYXQiOjE3NjIwMzEwMjYsImV4cCI6MTc2MjYzNTgyNn0.3C001xPkQbUzZa4vSmXId_jMhTL-2n_kjC67ncOKxOc","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"status":"active"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/products","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:4267:25)\n    at Axios.request (http://localhost:3000/_next/static/chunks/6e8fd_9cfbda79._.js:5025:49)\n    at async fetchProducts (http://localhost:3000/_next/static/chunks/g_ecommerce-platform_frontend_a46f1c6b._.js:359:30)"}
+[12:42:25.666] Browser ERROR   💡 Tip: Make sure your backend server is running on http://localhost:5000
+[12:42:30.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:42:33.304] Browser ERROR   🚨 Network Error - Backend not reachable: {"baseURL":"http://localhost:5000/api","message":"Make sure the backend server is running on port 5000","url":"/auth/me"}
+[12:43:22.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:43:23.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:43:46.102] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:31.360] Server  LOG      ✓ Compiled in 762ms
+[12:46:31.625] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:31.625] Browser WARN    Unsupported prop change on Elements: You cannot change the `stripe` prop after setting it.
+[12:46:31.625] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:37.034] Server  LOG      ✓ Compiled in 128ms
+[12:46:37.125] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:37.125] Browser WARN    Unsupported prop change on Elements: You cannot change the `stripe` prop after setting it.
+[12:46:37.125] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:43.058] Server  LOG      ✓ Compiled in 174ms
+[12:46:43.150] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:46:43.150] Browser WARN    Unsupported prop change on Elements: You cannot change the `stripe` prop after setting it.
+[12:46:43.150] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:50:42.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:50:43.954] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:51:45.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:51:47.204] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:51:50.352] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:51:59.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:52:00.845] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:52:39.968] Server  LOG      ✓ Compiled in 232ms
+[12:53:46.621] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[12:55:57.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[12:56:38.270] Server  LOG      ✓ Compiled in 711ms
+[12:56:46.864] Server  LOG      ✓ Compiled in 296ms
+[12:58:14.215] Server  LOG      ✓ Compiled in 604ms
+[12:58:38.406] Server  LOG      ✓ Compiled in 0ms
+[12:59:05.047] Server  LOG      ✓ Compiled in 0ms
+[12:59:26.434] Server  LOG      ✓ Compiled in 1ms
+[13:00:16.695] Server  LOG      ✓ Compiled in 346ms
+[13:00:20.870] Server  LOG      ✓ Compiled in 237ms
+[13:00:21.063] Browser ERROR   uncaughtError: ReferenceError: QuickStats is not defined
+[13:00:32.627] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[13:00:32.650] Server  LOG      ✓ Compiled in 337ms
+[13:00:34.620] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:14:46.219] Server  LOG      ○ Compiling /admin/users ...
+[13:15:42.420] Server  LOG      ✓ Compiled in 254ms
+[13:15:46.071] Server  LOG      ✓ Compiled in 72ms
+[13:16:00.479] Server  LOG      ✓ Compiled in 58ms
+[13:16:13.718] Server  LOG      ✓ Compiled in 52ms
+[13:16:17.772] Server  LOG      ✓ Compiled in 53ms
+[13:16:22.125] Server  LOG      ✓ Compiled in 58ms
+[13:16:29.065] Server  LOG      ○ Compiling /admin/orders ...
+[13:18:54.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:19:18.249] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:19:22.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:22:42.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:23:32.043] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:23:33.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:23:46.052] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[13:24:40.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:26:51.091] Server  LOG      ✓ Compiled in 504ms
+[13:26:51.124] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:26:51.140] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:26:54.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:26:54.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:07.845] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:07.855] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/contexts/AuthContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:08.271] Server  LOG      ✓ Compiled in 85ms
+[13:27:10.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:10.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:13.178] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:13.179] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:13.195] Server  LOG      ✓ Compiled in 144ms
+[13:27:15.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:15.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:19.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:24.395] Server  LOG      ✓ Compiled in 83ms
+[13:27:28.643] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:28.713] Server  LOG      ✓ Compiled in 56ms
+[13:27:28.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:30.224] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./g/ecommerce-platform/frontend/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[13:27:30.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:27:53.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[13:32:05.930] Browser WARN    You may test your Stripe.js integration over HTTP. However, live Stripe.js integrations must use HTTPS.
+[13:34:02.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
